@@ -2,11 +2,11 @@
 
 https://tribe.adatechschool.fr/t/decouverte-du-langage-go/
 
-#Go - ToDo
+### Go - ToDo
 Créer des fonctions pour:
-- trouver les lettres > écrire lettre & lire le caractère donné
+- trouver les lettres -> écrire lettre & lire le caractère donné
 - afficher les lettres trouvées
-- nombre de coup restant > décrémentation à chaque essaie
+- nombre de coup restant -> décrémentation à chaque essaie
 - afficher le nombre de coups restant
 - cacher le mot
 - afficher si on gagne ou non
