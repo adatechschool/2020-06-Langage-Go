@@ -22,11 +22,10 @@ func main(){
 	 output = number1 * number2  
 	case "/":  
 	 output = number1 / number2  
-	 
 	default:  
 	 fmt.Println("Invalid Operation")  
 	}  
-	fmt.Printf("%f %s %f = %f\n", number1, operator, number2, output)  
+	fmt.Printf("%.2f %s %.2f = %.2f\n", number1, operator, number2, output)  
    }  
 
 
