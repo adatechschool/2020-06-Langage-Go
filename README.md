@@ -4,12 +4,12 @@ https://tribe.adatechschool.fr/t/decouverte-du-langage-go/
 
 ### Go - ToDo
 Créer des fonctions pour:
-- trouver les lettres -> écrire lettre & lire le caractère donné
-- afficher les lettres trouvées
-- nombre de coup restant -> décrémentation à chaque essaie
-- afficher le nombre de coups restant
-- cacher le mot
+- trouver les lettres, écrire lettre & lire le caractère donné --> Done
+- afficher les lettres trouvées --> Done
+- nombre de coup restant, décrémentation à chaque essaie --> Done
+- afficher le nombre de coups restant --> Done
 - afficher si on gagne ou non
+- fine tuning
 Créer un fichier contenant un dictionnaire :
 - compter le nombre de `/n` lors de la première lecture du fichier
 - choisir une ligne au hasard
