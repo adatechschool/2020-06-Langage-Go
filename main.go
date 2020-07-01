@@ -24,10 +24,8 @@ func word_finder(word_to_find string) {
     fmt.Printf("Your entry was %c\n", letter[0])
     indexes := letter_check(word_to_find, letter)
     // send indexes to a function that fills out a blank string
-    word = word + letter
     filler(indexes, letter, guess_results)
   }
-  fmt.Print(word)
   fmt.Print("\n", word_to_find, "\n")
 }
 
@@ -47,7 +45,7 @@ func letter_check(word_to_find, letter string) []int {
   }
   // Result message
   if len(indexes) == 0 {
-    fmt.Printf("No occurence of %s in the word.\n", letter, word_to_find)
+    fmt.Printf("No occurence of %s in %s.\n", letter, word_to_find)
   } else {
     fmt.Printf("All indexes of %s in the word: %v\n", letter, indexes)
   }
@@ -68,6 +66,5 @@ func filler(indexes []int, letter string, guess_results []string) {
   for i := range indexes {
     guess_results[indexes[i]] = letter
   }
-  // guess_results = s.Replace(guess_results, "_", "t", 4)
-  fmt.Print(guess_results)
+  fmt.Println(guess_results)
 }
