@@ -14,3 +14,6 @@ Créer un fichier contenant un dictionnaire :
 - compter le nombre de `/n` lors de la première lecture du fichier
 - choisir une ligne au hasard
 Faire un fichier expliquants les règles et qu'il faut entrer les lettres en majuscules
+- dictionnaire contenant des mots --> Done
+- ajouté difficulté
+- créer une catégorie "pop" en difficulté --> Done
