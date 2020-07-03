@@ -12,6 +12,7 @@ func word_finder(word_to_find string) {
   var letter string
   scanner := b.NewScanner(os.Stdin)
   guess_results := create_empty_guess_results(word_to_find)
+  fmt.Println(guess_results)
 
   for i := 4; i > 0; i-- {
     fmt.Printf("Enter your guess (%d left): ", i)

@@ -1,5 +1,6 @@
 package main
 
 func main(){
-  word_finder("floRiaN")
+  word := word_chooser()
+  word_finder(word)
 }
