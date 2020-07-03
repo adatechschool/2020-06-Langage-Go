@@ -1,6 +1,6 @@
 package main
 
 func main(){
-  word := word_chooser()
-  word_finder(word)
+  word, guesses := word_chooser()
+  word_finder(word, guesses)
 }
